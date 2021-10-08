@@ -1,8 +1,16 @@
-import g13 from './Assets/g13-store.png'
-import trivia from './Assets/trivia.png'
-import webChat from './Assets/webchat.png'
+import g13 from './Assets/g13-store.png';
+import trivia from './Assets/trivia.png';
+import webChat from './Assets/webchat.png';
+import telivery from "./Assets/telivery.png";
 
 const projectList = [
+  {
+    name: "Telivery",
+    description: "Aplicativo de serviço de delivery onde é possivel escolher produtos e acompanhar status de entrega",
+    image: telivery,
+    link: 'https://telivery.herokuapp.com/',
+    codigo: 'https://github.com/johnealves/app-delivery',
+  },
   {
     name: "Web Chat",
     description: "Aplicação online que usa Sockei.io para um sistema de chat com troca de menssagens em tempo real entre os usuarios conectados",
